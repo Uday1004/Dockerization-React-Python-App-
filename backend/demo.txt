@@ -1,0 +1,9 @@
+#first command to set enviroment for python
+1. python -m venv venv
+2. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted
+3. venv\Scripts\activate
+
+# pip install Flask
+# pip freeze > requirements.txt     // this is push all the requirement modules in the requirements.txt
+
+#python app.py    //run the app.py
