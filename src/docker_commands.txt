@@ -1,0 +1,3 @@
+run any image :- docker run -it image_name
+build the app :- docker build -t myapp .(dot spaecified the path of dockerfile and myapp is name of our image)
+map the port for docker and local :- docker run -p 8999:9000 myapp
